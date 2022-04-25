@@ -1,0 +1,74 @@
+form
+{
+    background-color: rgb(186, 186, 211); 
+    width: 30%;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, 
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    margin: 10px auto ;
+    text-decoration: none;
+}
+form i
+{
+    margin-left: 20px;
+    font-size: 20px;
+}
+form i:hover
+{
+    color:#fc0;
+    cursor: pointer;
+}
+form button
+{
+    margin-left: 80%;
+    border: none;
+    background-color: rgb(167, 163, 163);
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+form button:hover
+{
+    cursor: pointer;
+}
+.rate--content
+{
+    /* display: none; */
+    width: 400px;
+    height: 150px;
+    margin-left: 250px;
+}
+.selected{
+    color: yellow;
+}
+.Unselected{
+    color: black;
+}
+.rate--comments
+{
+    width: 90%;
+    height: 50px;
+    border: none;
+    margin-left: 19px;
+    box-shadow: rgba(50, 50, 93, 0.25) 
+                0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 
+                0px 1px 3px -1px;
+    border-radius: 4px;
+    padding-left:20px ;
+}
+.rate--comments:focus
+{
+    outline: none;
+}
+/* @media screen and (min-width: 480px) { */
+    /* form{
+      padding: 20px;
+      padding-left: 0px;
+      width: 200px;
+    }
+    .rate--comments
+    {
+        width: 150px;
+    }
+  } */
