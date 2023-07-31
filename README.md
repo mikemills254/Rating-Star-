@@ -1,1 +1,1 @@
-Star rating system using html CSS javascript# Rating-Star-
+Star rating system using html CSS javascript
